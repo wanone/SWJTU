@@ -1,0 +1,120 @@
+body{
+	background-color: #eee;
+}
+header{
+	position: static;
+}
+.bread{
+	margin-top: 10px;
+}
+header a{
+	padding: 10px;
+}
+article{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	z-index: 1; 
+	background-color: #fff;
+}
+article section{
+	position: relative;
+	width: 1000px;
+	height: 600px;
+	margin-bottom: 100px;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size: cover;
+}
+.noText,
+.noDiv,
+.noImg{
+	display: none;
+}
+.shadowDiv{
+	display: block;
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.shadowText{
+	display: block;
+	position: absolute;
+	width: 500px;
+	top: 50%;
+	left: -100%;
+	margin-top: -90px;
+	font-size: 20px;
+	color: #fff;
+	text-align: justify;
+	text-indent: 2em;
+	animation: textMove .3s  ease .4s forwards;
+	-webkit-animation: textMove .3s  ease .4s forwards;
+	-moz-animation: textMove .3s  ease .4s forwards;
+	-o-animation: textMove .3s  ease .4s forwards;
+}
+@keyframes textMove{
+	from {left: -100%;}
+	to {left: 15%;}
+}
+@-webkit-keyframes textMove{
+	from {left: -100%;}
+	to {left: 15%;}
+}
+@-moz-keyframes textMove{
+	from {left: -100%;}
+	to {left: 15%;}
+}
+@-o-keyframes textMove{
+	from {left: -100%;}
+	to {left: 15%;}
+}
+.shadowImg{
+	display: block;
+	position: absolute;
+	top: -10%;
+	right: 15%;
+	margin-top: -108px;
+	animation: imgMove .3s ease forwards;
+	-webkit-animation: imgMove .3s ease forwards;
+}
+@keyframes imgMove{
+	from {top: -10%;}
+	to {top: 50%;}
+}
+@-webkit-keyframes imgMove{
+	from {top: -10%;}
+	to {top: 50%;}
+}
+@-moz-keyframes imgMove{
+	from {top: -10%;}
+	to {top: 50%;}
+}
+@-o-keyframes imgMove{
+	from {top: -10%;}
+	to {top: 50%;}
+}
+.section1{
+	background-image: url(../img/train.JPG);
+}
+.section2{
+	background-image: url(../img/gain55.png);
+}
+.section3{
+	background-image: url(../img/gain1.JPG);
+}
+.section4{
+	background-image: url(../img/gain3.JPG);
+}
+footer{
+	bottom: -2260px;
+	background-color: #fff;
+}
+.foxFooter{
+	bottom: -2290px !important;
+}

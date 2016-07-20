@@ -1,0 +1,29 @@
+body{
+	background: #fff url(../img/bizhi1.jpg) no-repeat;
+	background-size: cover;
+}
+article{
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 1000px;
+	height: 500px;
+	padding-left: 100px;
+	padding-right: 100px; 
+	margin: 0 auto;
+	margin-top: 10px; 
+}
+article img{
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+}
+article img:hover{
+	 border: 2px solid #90000a;
+}
+.bread,
+.bread a{
+	color: #fff;
+}

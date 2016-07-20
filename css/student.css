@@ -1,0 +1,126 @@
+body{
+	background: #fff url(../img/shanghai1.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: left center;
+}
+header{
+	position: relative;
+	box-shadow: 0px 0px 0px #ccc;
+	background-color: transparent;
+	z-index: 10;
+}
+header a{
+	height: 60px;
+	padding: 15px;
+	color: #fff;
+}
+header a:hover{
+	text-decoration: none;
+	border-bottom: 5px solid #8f000b;
+	color: #ccc;
+}
+article{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+.carousel-inner .item{
+	width: 100%;
+	height: 700px;
+}
+.carousel-inner .item img{
+	width: 100%;
+	height: 100%;
+}
+.content{
+	position: absolute;
+	width: 1000px;
+	padding: 20px;
+	padding-top: 10px !important;
+	top: 700px;
+	left: 50%;
+	margin-top: 50px;
+	margin-left: -500px;
+	background-color: #fff; 
+}
+.bread{
+	margin-top: 10px;
+	margin-bottom: 10px  
+}
+section{
+	position: relative;
+	width: 1000px;
+	height: 450px;
+	margin-bottom: 50px;
+}
+section img:hover{
+	box-shadow: 0px 0px 0px #8f000b;
+	border: 10px solid #8f000b; 
+}
+section p{
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	border: 2px solid #ccc;
+    right: 40px;
+    top: 175px;
+    padding-top: 10px; 
+    text-align: center;
+    color: #ccc; 
+}
+section p:hover{
+	color: #8f000b;
+}
+section span{
+	font-size: 50px;
+	font-family: "宋体", sans-serif;
+}	
+section i{
+    font-size: 30px;
+    font-family: "宋体", sans-serif;
+}
+section .one,
+section .two,
+section .three{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 75px;
+    left: 50px;  
+    border: 10px solid #fff; 
+	-webkit-transform: rotate(20deg); 
+	-moz-transform: rotate(20deg); 
+	-o-transform: rotate(20deg); 
+	-ms-transform: rotate(20deg); 
+	transform: rotate(20deg); 
+	box-shadow: 5px 5px 5px #ccc;
+	z-index: 3;
+}
+section .two{
+	-webkit-transform: rotate(-15deg); 
+	-moz-transform: rotate(-15deg); 
+	-o-transform: rotate(-15deg); 
+	-ms-transform: rotate(-15deg); 
+	transform: rotate(-15deg);
+	z-index: 2; 
+}
+section .three{
+	-webkit-transform: rotate(-30deg); 
+	-moz-transform: rotate(-30deg); 
+	-o-transform: rotate(-30deg); 
+	-ms-transform: rotate(-30deg); 
+	transform: rotate(-30deg);
+	z-index: 1; 
+}
+footer{
+	bottom: -2270px !important; 
+}
+.foxFooter{
+	bottom: -2300px !important;
+}
+.aClick{
+	border: 0px solid #ccc;
+	outline: 0px solid #ccc;
+}

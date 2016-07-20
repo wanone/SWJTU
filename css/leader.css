@@ -1,0 +1,118 @@
+article{
+	width: 800px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 30px; 
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, .7);
+}
+article>div{
+	float: left;
+	overflow: hidden;
+}
+article span{
+	display: block;
+	width: 80px;
+	height: 30px;
+	padding-top: 3px; 
+	background-color: #90000a; 
+	color: #fff;
+	text-align: center; 
+}
+article .job{
+    background-color: #ccc; 
+	color: #000;
+}
+
+article .one{
+	display: flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;  
+	width: 135px;
+	height: 300px; 
+}
+
+article .two{
+	width: 315px;
+	height: 300px;
+	margin-left: 8px; 
+}
+.two .floor1{
+	display: flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	justify-content: space-around;
+	width: 315px;
+	height: 30px;
+	margin-top: 15px;
+}
+.two .floor2{
+	position: relative;
+	width: 315px;
+	height: 200px;
+	margin-top: 10px; 
+}
+.floor2 div{
+	position: absolute;
+}
+.f21{
+	top: 20px;
+	right: 42px;
+}
+.f22{
+	top: 80px;
+	right: 115px;
+}
+.f23{
+	top: 140px;
+	right: 190px;
+}
+.two .floor3{
+	display: flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	justify-content: space-around;
+	width: 315px;
+	height: 30px;
+	padding-bottom: 20px;
+}
+article .oneone{
+	float: right;
+	width: 320px;
+	height: 300px;
+}
+.layer1{
+	display: flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	justify-content: space-around;
+	width: 315px;
+	height: 30px;
+	margin-top: 15px;
+}
+.layer2,
+.layer3,
+.layer4,
+.layer5{
+	display: flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	justify-content: space-around;
+	width: 315px;
+	height: 30px;
+	margin-top: 30px;
+}
+.layer2,
+.layer3,
+.layer4{
+	padding-left: 16px;
+	padding-right: 12px; 
+    justify-content: space-between;
+}
+.bread,
+.bread a{
+	color: #fff;
+}

@@ -1,0 +1,208 @@
+body{
+	background: #fff url(../img/jiaoda.jpg) no-repeat;
+	background-size: cover;
+	background-position: left center;
+}
+header{
+	position: static;
+}
+header a{
+	height: 55px;
+	padding: 15px;
+	color: #000;
+}
+.bread{
+	color: #fff;
+	margin-top: 10px; 
+}
+.bread a{
+	color: #fff;
+}
+article{
+	position: relative;
+	width: 1000px;
+	height: 550px;
+	margin: 0 auto;
+	margin-top: 20px;
+	z-index: 1; 
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 20px;
+}
+article>img{
+	position: relative;
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	z-index: 1;
+}
+.imgAnimOver{
+	animation: imgMove 1.5s ease   forwards; 
+	-webkit-animation: imgMove 1.5s ease  forwards ; 
+	-moz-animation: imgMove 1.5s ease   forwards ; 
+	-o-animation: imgMove 1.5s ease   forwards ; 
+}
+@keyframes imgMove{
+	from {transform: scale(1, 1);z-index: 1;}
+	to {transform: scale(1.2, 1.2);z-index: 2;}
+}
+@-webkit-keyframes imgMove{
+    from {transform: scale(1, 1);z-index: 1;}
+	to {transform: scale(1.2, 1.2);z-index: 2;}
+}
+@-moz-keyframes imgMove{
+	from {transform: scale(1, 1);z-index: 1;}
+	to {transform: scale(1.2, 1.2);z-index: 2;}
+}
+@-o-keyframes imgMove{
+	from {transform: scale(1, 1);z-index: 1;}
+	to {transform: scale(1.2, 1.2);z-index: 2;}
+}
+.imgAnimOut{
+	animation: imgMoveOut 1.5s ease   forwards; 
+	-webkit-animation: imgMoveOut 1.5s ease  forwards ; 
+	-moz-animation: imgMoveOut 1.5s ease   forwards ; 
+	-o-animation: imgMoveOut 1.5s ease   forwards ; 
+}
+@keyframes imgMoveOut{
+	from {transform: scale(1.2, 1.2);z-index: 2;}
+	to {transform: scale(1, 1);z-index: 1}
+}
+@-webkit-keyframes imgMoveOut{
+    from {transform: scale(1.2, 1.2);z-index: 2;}
+	to {transform: scale(1, 1);z-index: 1}
+}
+@-moz-keyframes imgMoveOut{
+	from {transform: scale(1.2, 1.2);z-index: 2;}
+	to {transform: scale(1, 1);z-index: 1}
+}
+@-o-keyframes imgMoveOut{
+	from {transform: scale(1.2, 1.2);z-index: 2;}
+	to {transform: scale(1, 1);z-index: 1}
+}
+.one1{
+	left: 60px;
+	top: 60px;
+	transform: rotate(30deg);
+    -ms-transform: rotate(30deg);		/* IE 9 */
+    -webkit-transform: rotate(30deg);	/* Safari and Chrome */
+    -o-transform: rotate(30deg);		/* Opera */
+    -moz-transform: rotate(30deg)
+}
+.one2{
+	left: 60px;
+	top: 20px;
+	transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);		/* IE 9 */
+    -webkit-transform: rotate(-30deg);	/* Safari and Chrome */
+    -o-transform: rotate(-30deg);		/* Opera */
+    -moz-transform: rotate(-30deg)
+}
+.one3{
+	left: 30px;
+	top: 60px;
+	transform: rotate(30deg);
+    -ms-transform: rotate(30deg);		/* IE 9 */
+    -webkit-transform: rotate(30deg);	/* Safari and Chrome */
+    -o-transform: rotate(30deg);		/* Opera */
+    -moz-transform: rotate(30deg)
+}
+.one4{
+	left: 130px;
+	top: 50px;
+	transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);		/* IE 9 */
+    -webkit-transform: rotate(-50deg);	/* Safari and Chrome */
+    -o-transform: rotate(-50deg);		/* Opera */
+    -moz-transform: rotate(-50deg)
+}
+.one5{
+	left: 10px;
+	top: 330px;
+	transform: rotate(30deg);
+    -ms-transform: rotate(30deg);		/* IE 9 */
+    -webkit-transform: rotate(30deg);	/* Safari and Chrome */
+    -o-transform: rotate(30deg);		/* Opera */
+    -moz-transform: rotate(30deg)
+}
+.one6{
+	left: 50px;
+	top: 40px;
+	transform: rotate(70deg);
+    -ms-transform: rotate(70deg);		/* IE 9 */
+    -webkit-transform: rotate(70deg);	/* Safari and Chrome */
+    -o-transform: rotate(70deg);		/* Opera */
+    -moz-transform: rotate(70deg)
+}
+.one10{
+	left: 20px;
+	top: -20px;
+	transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);		/* IE 9 */
+    -webkit-transform: rotate(-10deg);	/* Safari and Chrome */
+    -o-transform: rotate(-10deg);		/* Opera */
+    -moz-transform: rotate(30deg)
+}
+.one9{
+	left: 200px;
+	top: 100px;
+	transform: rotate(45deg);
+    -ms-transform: rotate(45deg);		/* IE 9 */
+    -webkit-transform: rotate(45deg);	/* Safari and Chrome */
+    -o-transform: rotate(45deg);		/* Opera */
+    -moz-transform: rotate(45deg)
+}
+.one11{
+	left: 30px;
+	top: 30px;
+	transform: rotate(30deg);
+    -ms-transform: rotate(30deg);		/* IE 9 */
+    -webkit-transform: rotate(30deg);	/* Safari and Chrome */
+    -o-transform: rotate(30deg);		/* Opera */
+    -moz-transform: rotate(30deg)
+}
+.one12{
+	left: 30px;
+	top: 30px;
+	transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);		/* IE 9 */
+    -webkit-transform: rotate(-60deg);	/* Safari and Chrome */
+    -o-transform: rotate(-60deg);		/* Opera */
+    -moz-transform: rotate(-60deg)
+}
+.one14{
+	left: 200px;
+	top: 10px;
+	transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);		/* IE 9 */
+    -webkit-transform: rotate(-18deg);	/* Safari and Chrome */
+    -o-transform: rotate(-18deg);		/* Opera */
+    -moz-transform: rotate(-18deg)
+}
+.one13{
+	left: 180px;
+	top: 10px;
+	transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);		/* IE 9 */
+    -webkit-transform: rotate(-18deg);	/* Safari and Chrome */
+    -o-transform: rotate(-18deg);		/* Opera */
+    -moz-transform: rotate(-18deg)
+}
+.one8{
+	left: 179px;
+	top: 60px;
+	transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);		/* IE 9 */
+    -webkit-transform: rotate(-18deg);	/* Safari and Chrome */
+    -o-transform: rotate(-18deg);		/* Opera */
+    -moz-transform: rotate(-18deg)
+}
+.one7{
+	left: 129px;
+	top: 60px;
+	transform: rotate(-49deg);
+    -ms-transform: rotate(-49deg);		/* IE 9 */
+    -webkit-transform: rotate(-49deg);	/* Safari and Chrome */
+    -o-transform: rotate(-49deg);		/* Opera */
+    -moz-transform: rotate(-49deg)
+}

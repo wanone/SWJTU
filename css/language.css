@@ -1,0 +1,94 @@
+header{
+	z-index: 1000;
+}
+article{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+article>.img{
+	float: left;
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+article>.img>img{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+	animation: imgRotate 1s ease  infinite alternate;
+	-webkit-animation: imgRotate 1s ease  infinite alternate;
+    -moz-animation: imgRotate 1s ease  infinite alternate;
+    -o-animation: imgRotate 1s ease  infinite alternate;
+}
+@keyframes imgRotate{
+	0%   {transform:rotate(0deg) scale(1,1);}
+	100% {transform:rotate(7200deg) scale(5,5);}
+}
+@-moz-keyframes imgRotate{
+	0%   {transform:rotate(0deg) scale(1,1);}
+	100% {transform:rotate(7200deg) scale(5,5);}
+}
+@-webkit-keyframes imgRotate{
+	0%   {transform:rotate(0deg) scale(1,1);}
+	100% {transform:rotate(7200deg) scale(5,5);}
+}
+@-o-keyframes imgRotate{
+	0%   {transform:rotate(0deg) scale(1,1);}
+	100% {transform:rotate(7200deg) scale(5,5);}
+}
+article>.text{
+	float: right;
+	width: 680px;
+	height: 600px;
+	border-left: 2px solid #aaa; 
+	border-right: 2px solid #aaa; 
+	border-top: 2px solid #aaa; 
+	color: #000; 
+	background-color: #eee;
+}
+.text>span{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	background-color: #90000a;
+}
+.text>span,
+.text p{
+	font-family: "宋体", sans-serif;
+	font-size: 30px;
+}
+.text p{  
+	text-indent: 2em;
+	font-size: 18px;
+	margin-bottom: 30px; 
+}
+#marquee{
+	position: relative;
+	width: 680px;
+	height: 550px;
+	padding: 10px;
+	overflow: hidden;
+}
+#marquee dl,
+#marquee dt,
+#marquee dd{
+	margin: 0px;
+	padding: 0px; 
+}
+footer{
+	bottom: -150px;
+}
+.foxFooter{
+	bottom: -180px !important;
+}
+.nameS{
+	float: right;
+	margin-right: 30px;
+}

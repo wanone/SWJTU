@@ -1,0 +1,132 @@
+body{
+	background: #fff url(../img/shanghai1.jpg) no-repeat;
+	background-position: left center;
+	background-size: cover;
+}
+header{
+	z-index: 1000;
+}
+article{
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.jiaotong1{
+	width: 300px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border: 10px solid #fff;
+	overflow: hidden;
+}
+.jiaotong1>img{
+	width: 100%;
+	height: 100%;
+}
+.jiaotong1:hover{
+	border: 10px solid #90000a;
+}
+.jiaotongHead{
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	color: #90000a;
+	text-align: center;
+}
+.jiaotong11{
+	width: 500px;
+	padding: 30px;
+	margin-top: -15px;
+	text-align: justify;
+	text-indent: 2em;
+	font-size: 16px;
+}
+.imgAnimOver{
+	animation: imgMove 2s ease   forwards; 
+	-webkit-animation: imgMove 2s ease  forwards ; 
+	-moz-animation: imgMove 2s ease   forwards ; 
+	-o-animation: imgMove 2s ease   forwards ; 
+}
+@keyframes imgMove{
+	from {transform: scale(1, 1);}
+	to {transform: scale(1.2, 1.2);}
+}
+@-webkit-keyframes imgMove{
+	from {transform: scale(1, 1);}
+	to {transform: scale(1.2, 1.2);}
+}
+@-moz-keyframes imgMove{
+    from {transform: scale(1, 1);}
+	to {transform: scale(1.2, 1.2);}
+}
+@-o-keyframes imgMove{
+	from {transform: scale(1, 1);}
+	to {transform: scale(1.2, 1.2);}
+}
+.imgAnimOut{
+	animation: imgMoveOut 2s ease   forwards; 
+	-webkit-animation: imgMoveOut 2s ease  forwards ; 
+	-moz-animation: imgMoveOut 2s ease   forwards ; 
+	-o-animation: imgMoveOut 2s ease   forwards ; 
+}
+@keyframes imgMoveOut{
+	from {transform: scale(1.2, 1.2);}
+	to {transform: scale(1, 1);}
+}
+@-webkit-keyframes imgMoveOut{
+	from {transform: scale(1.2, 1.2);}
+	to {transform: scale(1, 1);}
+}
+@-moz-keyframes imgMoveOut{
+	from {transform: scale(1.2, 1.2);}
+	to {transform: scale(1, 1);}
+}
+@-o-keyframes imgMoveOut{
+	from {transform: scale(1.2, 1.2);}
+	to {transform: scale(1, 1);}
+}
+div.page{
+	background: #fff url(../img/text.jpg) no-repeat;
+	background-position: left center;
+	background-size: cover;
+}
+div.page1{
+	background: #fff url(../img/text2.jpg) no-repeat;
+}
+div.page1 .jiaotongHead{
+	font-size: 30px;
+}
+div.page2{
+	background: #fff url(../img/text.jpg) no-repeat;
+}
+div.page3{
+	background: #fff url(../img/text.jpg) no-repeat;
+}
+div.page4{
+	background: #fff url(../img/text.jpg) no-repeat;
+}
+div.page5{
+	background: #fff url(../img/text.jpg) no-repeat;
+}
+div.page6{
+	background: #fff url(../img/text.jpg) no-repeat;
+}
+div.page7{
+	background: #fff url(../img/text.jpg) no-repeat;
+}
+.b-page-blank{
+	border: 0px solid #ccc;
+	background: #fff url(../img/text.jpg) no-repeat;
+}
+.b-page-blank .jiaotong1{
+	border: 0px solid #ccc;
+}
+.b-page-blank .jiaotong1:hover{
+	border: 0px solid #ccc;
+}
+
+
+
+
+

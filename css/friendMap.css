@@ -1,0 +1,13 @@
+.CodeMirror {
+    height: 550px;
+}
+.sidebar-nav{
+	position: absolute;
+	left: -100%;
+}
+#graphic{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 70px;
+}

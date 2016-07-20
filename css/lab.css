@@ -1,0 +1,205 @@
+header{
+	position: static;
+}
+header a{
+	height: 60px;
+	padding: 15px;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.bread{
+	margin-top: 10px;
+}
+.btn-self{
+    width: 150px;
+    height: 40px;
+    text-center: center;
+    border-radius: 10px; 
+    background-color: #8f000b;
+    font-size: 20px;
+    color: #fff;
+}
+button:focus{
+    outline: 0px;
+}
+#myModal{
+    color: #fff;
+}
+button>span{    
+    background-image: url(../img/x.png);
+}
+button>span:hover{
+    background-image: url(../img/xx.png);   
+}
+.modal-content{
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    padding-left: 140px;
+    padding-right: 140px;
+    top: 50px;
+    right: -150px;
+    background-color: #fff;
+    border-radius: 0px; 
+    z-index: 1;
+    background: url(../img/dishini.jpg);
+}
+.modal-header{
+    width: 900px;
+    margin-left: -140px;
+}
+.modal-body img{
+    // display: none;
+    position: absolute;
+    height: 215px;
+    z-index: 10000;
+}
+.xixi{
+    left: -600px;
+    top: 180px;
+}
+.xixiAnim{
+    display: block;
+    animation: xixiMove .3s ease forwards;
+    -webkit-animation: xixiMove .3s ease forwards;
+    -moz-animation: xixiMove .3s ease forwards;
+    -o-animation: xixiMove .3s ease forwards;
+}
+@keyframes xixiMove{
+    from {left: -410px;}
+    to {left: 10px;}
+}
+@-webkit-keyframes xixiMove{
+    from {left: -410px;}
+    to {left: 10px;}
+}
+@-moz-keyframes xixiMove{
+    from {left: -410px;}
+    to {left: 10px;}
+}
+@-o-keyframes xixiMove{
+    from {left: -410px;}
+    to {left: 10px;}
+}
+.nannan{
+    top: -400px;
+    left: 160px;
+}
+.nannanAnim{
+    display: block;
+    animation: nannanMove .3s ease forwards;
+    -webkit-animation: nannanMove .3s ease forwards;
+    -moz-animation: nannanMove .3s ease forwards;
+    -o-animation: nannanMove .3s ease forwards;
+}
+@keyframes nannanMove{
+    from {top: -240px;}
+    to {top: 180px;}
+}
+@-webkit-keyframes nannanMove{
+    from {top: -240px;}
+    to {top: 180px;}
+}
+@-moz-keyframes nannanMove{
+    from {top: -240px;}
+    to {top: 180px;}
+}
+@-o-keyframes nannanMove{
+    from {top: -240px;}
+    to {top: 180px;}
+}
+.jiaojiao{
+    top: 500px;
+    left: 320px;
+}
+.jiaojiaoAnim{
+    display: block;
+    animation: jiaojiaoMove .3s ease forwards;
+    -webkit-animation: jiaojiaoMove .3s ease forwards;
+    -moz-animation: jiaojiaoMove .3s ease forwards;
+    -o-animation: jiaojiaoMove .3s ease forwards;
+}
+@keyframes jiaojiaoMove{
+    from {top: 600px;}
+    to {top: 180px;}
+}
+@-webkit-keyframes jiaojiaoMove{
+    from {top: 600px;}
+    to {top: 180px;}
+}
+@-moz-keyframes jiaojiaoMove{
+    from {top: 600px;}
+    to {top: 180px;}
+}
+@-o-keyframes jiaojiaoMove{
+    from {top: 600px;}
+    to {top: 180px;}
+}
+.dada{
+    top: 180px;
+    left: 930px;
+}
+.dadaAnim{
+    display: block;
+    animation: dadaMove .3s ease forwards;
+    -webkit-animation: dadaMove .3s ease forwards;
+    -moz-animation: dadaMove .3s ease forwards;
+    -o-animation: dadaMove .3s ease forwards;
+}
+@keyframes dadaMove{
+    from {left: 930px;}
+    to {left: 510px;}
+}
+@-webkit-keyframes dadaMove{
+    from {left: 930px;}
+    to {left: 510px;}
+}
+@-moz-keyframes dadaMove{
+    from {left: 930px;}
+    to {left: 510px;}
+}
+@-o-keyframes dadaMove{
+    from {left: 930px;}
+    to {left: 510px;}
+}
+.modal-body p{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    left: 50%;
+    margin-left: -150px;
+    font-weight: bold;
+}
+.ppAnim{
+    display: block;
+    animation: ppMove 1s ease forwards;
+    -webkit-animation: ppMove 1s ease forwards;
+    -moz-animation: ppMove 1s ease forwards;
+    -o-animation: ppMove 1s ease forwards;
+}
+@keyframes ppMove{
+    from {top: -240px;}
+    to {top: 80px;}
+}
+@-webkit-keyframes ppMove{
+    from {top: -240px;}
+    to {top: 80px;}
+}
+@-moz-keyframes ppMove{
+    from {top: -240px;}
+    to {top: 80px;}
+}
+@-o-keyframes ppMove{
+    from {top: -240px;}
+    to {top: 80px;}
+}
